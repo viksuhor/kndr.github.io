@@ -127,7 +127,7 @@ width:1190px;
   padding: 10px;
   padding-top:20px;
   padding-left:30px;
-  height: 80px;
+  height: 100px;
 }
 
 .kndr_rd_slider_nav_btn {
@@ -264,8 +264,8 @@ width:1190px;
     width:250px;
   cursor:pointer;
   text-decoration:none;
-  margin-left:350px;
-  margin-top:-40px;
+  margin-left:365px;
+  margin-top:-25px;
 }
 .knd_rd_block_btns:hover {
 background-color: #FFAD29;
