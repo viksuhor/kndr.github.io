@@ -242,7 +242,11 @@ width:1190px;
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
+  cursor:pointer;
 }
 .kndr_rd_navquest_btn_activ {
+  background-color: rgb(154, 181, 247);
+}
+.kndr_rd_navquest_btn:hover{
   background-color: rgb(154, 181, 247);
 }
