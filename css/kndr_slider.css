@@ -114,7 +114,7 @@ width:1190px;
   padding-left: 10px;
   line-height: 30px;
   width: 50%;
-  height: 100px;
+  height: 30px;
   font-family: "roboto", sans-serif;
   font-size: 15px;
   font-style: normal;
@@ -127,7 +127,7 @@ width:1190px;
   padding: 10px;
   padding-top:30px;
   padding-left:30px;
-  height: 70px;
+  height: 100px;
 }
 
 .kndr_rd_slider_nav_btn {
