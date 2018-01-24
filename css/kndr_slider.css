@@ -262,6 +262,7 @@ width:1190px;
    border-radius: 255px;
     width:250px;
   cursor:pointer;
+  text-decoration:none;
 }
 .knd_rd_block_btns:hover {
 background-color: #FFAD29;
