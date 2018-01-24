@@ -129,8 +129,6 @@ width:1190px;
   height: 70px;
 }
 
-.knd_rd_block_btns {}
-
 .kndr_rd_slider_nav_btn {
   float: left;
   top: 50;
@@ -230,7 +228,6 @@ width:1190px;
 .kndr_rd_navquest_btn {
   background-color: rgb(104, 141, 227);
   margin-left: 10px;
-  margin-left: 10px;
   margin-top: 5px;
   float: left;
   width: 31.5%;
@@ -258,7 +255,7 @@ width:1190px;
     font-weight: 700;
     font-style: normal;
     font-size: 20px;
-    color: #FFFFFF;
+    color: #FFF;
     padding: 10px 20px;
     background-color: #F78D03;
     border: none;
