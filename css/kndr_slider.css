@@ -140,7 +140,8 @@ width:1190px;
   border-radius: 50%;
   background-color: #6184d5;
   border: 5px solid #afb4de;
-  box-shadow: 0 0 20px -5px #6184d5
+  box-shadow: 0 0 20px -5px #6184d5;
+  cursor:pointer;
 }
 .kndr_rd_slider_nav_btn img{
   padding:0;
