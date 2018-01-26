@@ -143,11 +143,11 @@ width:1190px;
   box-shadow: 0 0 20px -5px #6184d5
 }
 .kndr_rd_slider_nav_btn img{
-  margin:auto;
   padding:0;
   width:30px;
   heigth:30px;
-  margin-top:10px;
+  margin-top:5px;
+  margin-left:5px;
 }
 
 
