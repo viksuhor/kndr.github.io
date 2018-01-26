@@ -142,7 +142,12 @@ width:1190px;
   border: 5px solid #afb4de;
   box-shadow: 0 0 20px -5px #6184d5
 }
-
+.kndr_rd_slider_nav_btn img{
+  margin:0;
+  padding:0;
+  width:35px;
+  heigth:35px;
+}
 .kndr_rd_slider_nav_btn:hover {
   background-color: #7295e6;
 }
