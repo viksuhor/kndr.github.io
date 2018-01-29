@@ -50,9 +50,12 @@
     cursor: pointer
 }
 img.icon-fab-video{
- margin-top:13px;
- width:24px;
-    cursor: pointer
+    margin-top: 13px;
+    width: 24px;
+    height: 24px;
+    vertical-align: unset;
+    cursor: pointer;
+    border-radius: 0;
 }
 .expir_nsh_text{
   margin-top:-20px;
