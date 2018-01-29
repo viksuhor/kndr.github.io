@@ -10,3 +10,61 @@
     font-family: HelveticaNeueCyrRoman;
     src: url(http://viksuhor.github.io/Expir/font/HelveticaNeueCyrRoman.otf);
 }
+.card-success{
+  float:left;
+  margin-left:10px;
+  margin-right:10px;
+  max-width:310px;
+  position:relative;
+  border-radius:12px;
+  box-shadow:0 2px 6px rgba(0,0,0,.5);
+  margin-bottom:5px;
+  background-color:#4277bf;
+  color:#fff;
+  font-family:Helvetica;
+}
+.card-success img{
+  width: 100%;
+  border-radius:12px 12px 0 0;
+}
+
+.google-red{
+    background-color:#ff5252
+}
+.google-red.fab:hover{
+    background:#d50000;
+    cursor: pointer
+}
+.fab,a.fab{
+  display: inline-block;
+  margin-left:70%;
+  margin-top:-25px;
+    border-radius:50%;
+    box-shadow:0 2px 6px rgba(0,0,0,.2);
+    color:#fff;
+    height:50px;
+    line-height:50px;
+    overflow:hidden;
+    text-align:center;
+    width:50px;
+    cursor: pointer
+}
+img.icon-fab-video{
+ margin-top:13px;
+ width:24px;
+    cursor: pointer
+}
+.expir_nsh_text{
+  margin-top:-20px;
+  padding: 0 20px;
+  text-align:center;
+}
+.expir_nsh_text:after{
+  margin:0;
+  display:block;
+  height:1px;
+  content: ""
+}
+   .expir_nsh_text>h2,.kndr_nsh_text>p {
+    font-family:Roboto; 
+   } 
