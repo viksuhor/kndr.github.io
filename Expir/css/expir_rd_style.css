@@ -61,6 +61,8 @@ img.fab-video{
   margin-top:-10px;
   padding: 0 20px;
   text-align:center;
+        font-family:Roboto;
+       font-size:16pt;
 }
 .expir_nsh_text:after{
   margin:0;
