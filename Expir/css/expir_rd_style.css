@@ -58,7 +58,7 @@ img.fab-video{
     border-radius: 0;
 }
 .expir_nsh_text{
-  margin-top:-20px;
+  margin-top:-10px;
   padding: 0 20px;
   text-align:center;
 }
@@ -68,6 +68,7 @@ img.fab-video{
   height:1px;
   content: ""
 }
-   .expir_nsh_text>h2,.kndr_nsh_text>p {
-    font-family:Roboto; 
+   .expir_nsh_text>h2,.kndr_nsh_text p {
+    font-family:Roboto;
+       font-size:16pt;
    } 
