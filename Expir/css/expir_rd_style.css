@@ -21,7 +21,7 @@
   margin-bottom:5px;
   background-color:#4277bf;
   color:#fff;
-  font-family:Helvetica;
+  background:linear-gradient(to bottom,#4277bf 60%, rgba(74,72,207,1) 100%);
 }
 .card-success img{
   width: 100%;
