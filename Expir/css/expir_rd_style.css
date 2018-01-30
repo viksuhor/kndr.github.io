@@ -60,11 +60,11 @@ img.fab-video{
 .expir_nsh_text{
   margin-top:0px;
   padding: 0 20px;
-    line-height:100px;
+    line-height:75px;
   text-align:center;
         font-family:Roboto;
-       font-size:16pt;
-        min-height: 120px;
+       font-size:12pt;
+        min-height: 75px;
 }
 .expir_nsh_text:after{
   margin:0;
@@ -77,5 +77,5 @@ img.fab-video{
     vertical-align: middle;
     line-height: 1.25;
        font-family:Roboto;
-       font-size:16pt;
+       font-size:12pt;
    } 
