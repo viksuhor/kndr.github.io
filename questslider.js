@@ -8,6 +8,7 @@ $(document).ready(function() {
   var s_tmp;
   var n_tmp;
   var sgCount;
+  var wnd_popup="00ae8a60336545c5962051bb165dca99";
   $(".kndr_rd_slides").empty();
   for (s_tmp = 0; s_tmp < CountQuest; s_tmp++) {
     if (s_tmp < CountQuest - 1) {
@@ -26,7 +27,7 @@ $(document).ready(function() {
       slide_cont = slide_cont + "<div class=\"kndr_rd_sg_element\"style=\'background-image: url(" + kndr_rd_slides_src[s_tmp].mainimg + "); \'></div>";
       slide_cont = slide_cont + "<div class=\"kndr_rd_sg_element\"style=\'background-image: url(" + kndr_rd_slides_src[s_tmp].sgimg[0] + "); \'></div>";
     }
-    slide_cont = slide_cont + "</div></div><div class=\"kndr_rd_sg_btn kndr_rd_sg_btn_r\"><img src=\"https://viksuhor.github.io/image/sld_sg_arrow_right.png\"></div></div></div></div><div class=\'kndr_rd_right_slide\'><div class=\'kndr_rd_questword\'>КВЕСТ</div><div class=\'kndr_rd_namequest\'><p>" + kndr_rd_slides_src[s_tmp].name + "</p></div><div class=\'kndr_rd_quest_dsk\'>" + kndr_rd_slides_src[s_tmp].desk + "</div><div class=\'kndr_rd_cost\'>Стоимость (за 1-го человека в команде):</div><div class= \'kndr_rd_cost_dsk\'>" + kndr_rd_slides_src[s_tmp].cost + "</div><div class=\'knd_rd_block_btns\' onclick=\"showSectionPopup(\'21f3a37defdc45f9810344fcfaee0259\');return false;\">Забронировать квест</div></div></div>";
+    slide_cont = slide_cont + "</div></div><div class=\"kndr_rd_sg_btn kndr_rd_sg_btn_r\"><img src=\"https://viksuhor.github.io/image/sld_sg_arrow_right.png\"></div></div></div></div><div class=\'kndr_rd_right_slide\'><div class=\'kndr_rd_questword\'>КВЕСТ</div><div class=\'kndr_rd_namequest\'><p>" + kndr_rd_slides_src[s_tmp].name + "</p></div><div class=\'kndr_rd_quest_dsk\'>" + kndr_rd_slides_src[s_tmp].desk + "</div><div class=\'kndr_rd_cost\'>Стоимость (за 1-го человека в команде):</div><div class= \'kndr_rd_cost_dsk\'>" + kndr_rd_slides_src[s_tmp].cost + "</div><div class=\'knd_rd_block_btns\' onclick=\"showSectionPopup(\'"+wnd_popup+"\');return false;\">Забронировать квест</div></div></div>";
     $(".kndr_rd_slides").append(slide_cont);
   }
   $(".kndr_rd_navquest_btn").eq(0).addClass('kndr_rd_navquest_btn_activ');
