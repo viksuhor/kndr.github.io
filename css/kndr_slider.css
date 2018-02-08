@@ -240,17 +240,16 @@ width:1190px;
   margin-left: 10px;
   margin-top: 5px;
   float: left;
-  width: 31.5%;
+  width: 23.60%;
   color: rgb(255, 255, 255);
   padding: 10px 25px;
   border-radius: 20px;
   display: block;
   text-align: center;
   cursor: pointer;
-  font-family: "roboto", sans-serif;
+  font-family: intro, sans-serif;
   font-size: 16px;
   font-style: normal;
-  font-weight: 700;
   text-transform: uppercase;
   cursor:pointer;
 }
@@ -261,8 +260,7 @@ width:1190px;
   background-color: rgb(154, 181, 247);
 }
 .knd_rd_block_btns {
-    font-family: Roboto;
-    font-weight: 700;
+    font-family: intro;
     font-style: normal;
     font-size: 20px;
     color: #FFF;
