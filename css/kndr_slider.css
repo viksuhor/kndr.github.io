@@ -85,6 +85,7 @@ width:1190px;
 }
 
 .kndr_rd_namequest {
+  position:relative;
   padding-left: 10px;
   line-height: 50px;
   width: 95%;
@@ -282,15 +283,16 @@ background-color: #FFAD29;
   color:#fff;
 }
 .quest_age{
-      position: absolute;
+    position: absolute;
+    margin: auto;
     right: 7px;
-    border: 2px solid rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
     border-radius: 50%;
     font-family: intro;
-    font-size: 22px;
-    line-height: 31px;
-    width: 34px;
-    height: 34px;
+    font-size: 16px;
+    line-height: 35px;
+    width: 39px;
+    height: 39px;
     text-align: center;
     top: 5px;
 }
