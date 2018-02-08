@@ -190,6 +190,7 @@ width:1190px;
   border-radius: 50%;
   background-color: #6184d5;
   border: 2px solid #afb4de;
+  cursor:pointer;
   box-shadow: 0 0 20px -5px #6184d5
 }
 
