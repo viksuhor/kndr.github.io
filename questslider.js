@@ -15,7 +15,7 @@ $(document).ready(function() {
             $(".kndr_rd_navmenu").append("<div class=\'kndr_rd_navquest_btn\' data-attr=\'" + s_tmp + "\'><span class=\'kndr_rd_navquest_name\'>" + kndr_rd_slides_src[s_tmp].name + "</span></div>");
         }
         sgCount = kndr_rd_slides_src[s_tmp]['sgimg'].length;
-        slide_cont = "<div class=\'kndr_rd_slide\'><div class=\'kndr_rd_left_slide\'><div class='kndr_rd_qg_main'><div class='knd_navbtn knd_navbtn_l'></div><div class='kndr_rd_qg_slides' data-attr='0'><span class='kndr_rd_qg_slide kndr_rd_qg_slide_active' style=\'background-image: url(" + kndr_rd_slides_src[s_tmp].bgimg + "); '>&nbsp;</span>";
+        slide_cont = "<div class=\'kndr_rd_slide\'><div class=\'kndr_rd_left_slide\'><div class='kndr_rd_qg_main'><div class='knd_navbtn knd_navbtn_l'></div><div class='kndr_rd_qg_slides' data-attr='0'><span class='kndr_rd_qg_slide kndr_rd_qg_slide_active' style=\'background-image: url(" + kndr_rd_slides_src[s_tmp].mainimg + "); '>&nbsp;</span>";
         for (n_tmp = 0; n_tmp < sgCount; n_tmp++){
             slide_cont = slide_cont + "<span class=\"kndr_rd_qg_slide\"style=\'background-image: url(" + kndr_rd_slides_src[s_tmp].sgimg[n_tmp] + "); \'>&nbsp;</span>"
         }
