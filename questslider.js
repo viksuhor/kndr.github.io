@@ -20,7 +20,7 @@ $(document).ready(function() {
             slide_cont = slide_cont + "<span class=\"kndr_rd_qg_slide\"style=\'background-image: url(" + kndr_rd_slides_src[s_tmp].sgimg[n_tmp] + "); \'>&nbsp;</span>"
         }
         
-        slide_cont = slide_cont + "</div><div class=\'kndr_rd_right_slide\'><div class=\'kndr_rd_questword\'>"+kndr_rd_slides_src[s_tmp].type+"</div><div class=\'kndr_rd_namequest\'><p>" + kndr_rd_slides_src[s_tmp].name + "<span class=\"quest_age\">"+kndr_rd_slides_src[s_tmp].questage+"</span></p></div><div class=\'kndr_rd_quest_dsk\'>" + kndr_rd_slides_src[s_tmp].desk + "</div><div class=\'knd_rd_block_btns\' onclick=\"showSectionPopup(\'"+wnd_popup+"\');return false;\">Забронировать квест</div></div></div>";
+        slide_cont = slide_cont + "<div class='knd_navbtn knd_navbtn_r'></div></div></div><div class=\'kndr_rd_right_slide\'><div class=\'kndr_rd_questword\'>"+kndr_rd_slides_src[s_tmp].type+"</div><div class=\'kndr_rd_namequest\'><p>" + kndr_rd_slides_src[s_tmp].name + "<span class=\"quest_age\">"+kndr_rd_slides_src[s_tmp].questage+"</span></p></div><div class=\'kndr_rd_quest_dsk\'>" + kndr_rd_slides_src[s_tmp].desk + "</div><div class=\'knd_rd_block_btns\' onclick=\"showSectionPopup(\'"+wnd_popup+"\');return false;\">Забронировать квест</div></div></div>";
         $(".kndr_rd_slides").append(slide_cont);
     }
     $(".kndr_rd_navquest_btn").eq(0).addClass('kndr_rd_navquest_btn_activ');
@@ -179,7 +179,30 @@ $(document).ready(function() {
         bigImage.css('background-image', ListElem.eq(currentInd).css('background-image'));
 
     };
-
+function kndr_qg_rclick() {
+var parentSG = $(this).closest('.kndr_rd_qg_main');
+    var listSG = $('.kndr_rd_qg_slides', parentSG);
+    var ListElem = $('.kndr_rd_qg_slide', listSG);
+    var countelem = listSG.find('.kndr_rd_qg_slide').length;
+    var currentInd = Number(listSG.attr('data-attr'));
+    currentInd=(currentInd+1)%countelem;
+    ListElem.removeClass('kndr_rd_qg_slide_active');
+    ListElem.eq(currentInd).addClass('kndr_rd_qg_slide_active');
+    listSG.attr('data-attr',currentInd);
+    }
+    function kndr_qg_lclick() {
+var parentSG = $(this).closest('.kndr_rd_qg_main');
+    var listSG = $('.kndr_rd_qg_slides', parentSG);
+    var ListElem = $('.kndr_rd_qg_slide', listSG);
+    var countelem = listSG.find('.kndr_rd_qg_slide').length;
+    var currentInd = Number(listSG.attr('data-attr'));
+    currentInd=(currentInd-1)%countelem;
+    ListElem.removeClass('kndr_rd_qg_slide_active');
+    ListElem.eq(currentInd).addClass('kndr_rd_qg_slide_active');
+    listSG.attr('data-attr',currentInd);
+    }
+    $('.knd_navbtn_r').on('click', kndr_qg_rclick);
+    $('.knd_navbtn_l').on('click', kndr_qg_lclick);
     $('.kndr_rd_sg_btn_r').on('click', kndr_sg_rclick);
     $('.kndr_rd_sg_btn_l').on('click', kndr_sg_lclick);
 });
