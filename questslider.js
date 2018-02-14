@@ -14,8 +14,12 @@ $(document).ready(function() {
         if (s_tmp < CountQuest - 1) {
             $(".kndr_rd_navmenu").append("<div class=\'kndr_rd_navquest_btn\' data-attr=\'" + s_tmp + "\'><span class=\'kndr_rd_navquest_name\'>" + kndr_rd_slides_src[s_tmp].name + "</span></div>");
         }
-
-        slide_cont = "<div class=\'kndr_rd_slide\'><div class=\'kndr_rd_left_slide\'><span class=\'kndr_rd_main_img_slide\' style=\'background-image: url(" + kndr_rd_slides_src[s_tmp].mainimg + "); \'></span>";
+        sgCount = kndr_rd_slides_src[s_tmp]['sgimg'].length;
+        slide_cont = "<div class=\'kndr_rd_slide\'><div class=\'kndr_rd_left_slide\'><div class='kndr_rd_qg_main'><div class='knd_navbtn knd_navbtn_l'></div><div class='kndr_rd_qg_slides' data-attr='0'><span class='kndr_rd_qg_slide kndr_rd_qg_slide_active' style=\'background-image: url(" + kndr_rd_slides_src[s_tmp].bgimg + "); '>&nbsp;</span>";
+        for (n_tmp = 0; n_tmp < sgCount; n_tmp++){
+            slide_cont = slide_cont + "<span class=\"kndr_rd_qg_slide\"style=\'background-image: url(" + kndr_rd_slides_src[s_tmp].sgimg[n_tmp] + "); \'>&nbsp;</span>"
+        }
+        
         slide_cont = slide_cont + "</div><div class=\'kndr_rd_right_slide\'><div class=\'kndr_rd_questword\'>"+kndr_rd_slides_src[s_tmp].type+"</div><div class=\'kndr_rd_namequest\'><p>" + kndr_rd_slides_src[s_tmp].name + "<span class=\"quest_age\">"+kndr_rd_slides_src[s_tmp].questage+"</span></p></div><div class=\'kndr_rd_quest_dsk\'>" + kndr_rd_slides_src[s_tmp].desk + "</div><div class=\'knd_rd_block_btns\' onclick=\"showSectionPopup(\'"+wnd_popup+"\');return false;\">Забронировать квест</div></div></div>";
         $(".kndr_rd_slides").append(slide_cont);
     }
