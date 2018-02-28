@@ -139,9 +139,9 @@ display:inline-block;
     font-size: 16px;
     color: #FFF;
     padding: 10px 20px;
-    background-color: #F78D03;
-    border: none;
+    background: linear-gradient(to bottom,#EF5350 0%,#B71C1C 100%);
    border-radius: 255px;
+   border: 1px solid #D32F2F;
     width:250px;
   cursor:pointer;
   text-decoration:none;
@@ -151,7 +151,7 @@ display:inline-block;
   margin-bottom:-30px;
 }
 .quest-btn-add:hover {
-background-color: #FFAD29;
+    background: linear-gradient(to bottom,#EF5350 0%,#B71C1C 100%);
 }
 .quest-wnd{ 
 background-image: url("http://s.lpmcdn.com/lpfile/4/6/a/46acb7e9a0cc848145ad694972ad41db.jpg");
@@ -292,7 +292,7 @@ text-align:justify;
 }
 
 
-/*Åù¸ êóñü*/
+/*Ã…Ã¹Â¸ ÃªÃ³Ã±Ã¼*/
 
 .pag2 {
   position: absolute;
