@@ -23,7 +23,7 @@ $('.quest-wnd-src',$CurrQuestWnd).append('<div class="quest-wnd-left"></div>');
 $('.quest-wnd-src',$CurrQuestWnd).append('<div class="quest-wnd-right"></div>');
 $('.quest-wnd-right',$CurrQuestWnd).append('<div class="descript-quest">'+questlist[e].desk+'</div>');
 $('.quest-wnd-right',$CurrQuestWnd).append('<div class="app_ques"t></div>');
-$CurrQuestWnd.append('<div class="quest-wnd-footer"><div class="quest-btn-add">Записаться на квест</div></div>');
+$CurrQuestWnd.append('<div class="quest-wnd-footer"><div class="quest-btn-add">Р—Р°РїРёСЃР°С‚СЊСЃСЏ РЅР° РёРіСЂСѓ</div></div>');
   }
   
   function setQuestBlock(e,CurrQuestLine){
