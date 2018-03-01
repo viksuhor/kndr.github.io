@@ -40,7 +40,7 @@ $('.b-polygon-mask',$CurrQuest).append('<div class="b-mid-hex"><div class="b-mid
 $('.b-mid-hex-left',$CurrQuest).append('<span><img src="http://viksuhor.github.io/Expir/images/quest_icon_quest_item_member.png">  <img src="http://viksuhor.github.io/Expir/images/icon_person_grey_big_'+questlist[e].people_min+'.png">  -  ');
 $('.b-mid-hex-left',$CurrQuest).append('<img src="http://viksuhor.github.io/Expir/images/icon_person_grey_big_'+questlist[e].people_max+'.png"></span><br/><br/>');
 $('.b-mid-hex-left',$CurrQuest).append('<span class="time_quest"><img src="https://viksuhor.github.io/Expir/images/quest_icon_quest_item_time.png">   '+questlist[e].time+'</span><br/><br/>');
-$('.b-mid-hex-left',$CurrQuest).append('<span class="cost_quest"><img src="https://viksuhor.github.io/Expir/images/quest_icon_quest_item_money.png">   '+questlist[e].cost+'</span>');
+
   
   }
   
