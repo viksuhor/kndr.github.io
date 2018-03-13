@@ -222,19 +222,16 @@ text-align:justify;
 }
 
 .navquest>div {
-  border-top: 2px solid #e69a06;
-  border-bottom: 2px solid #e69a06;
+  border-bottom: 2px solid #ccc;
   border-radius: 2px;
   display: inline-block;
   margin: 0 auto;
   margin-top: 5px;
-  background-color: #323232;
-  background-image: linear-gradient(180deg, #404040, #202020);
 }
 
 .navquest a span {
   border-radius: 2px;
-  color: #fff;
+  color: #ccc;
   display: block;
   font-family: roboto;
   font-size: 16px;
@@ -278,15 +275,15 @@ text-align:justify;
 }
 
 .navquest a:hover span {
-  background-color: #d8a605;
-  background-image: linear-gradient(120deg, #fcc510, #e69a06);
+  background: rgba(255,255,255,0.25);
+  box-shadow: 0 0 27px rgba(255,255,255,0.4);
   color: #fff;
   text-shadow: 0 1px rgba(0, 0, 0, .15);
 }
 
 .navquest a.hover span {
-  background-color: #2dab9d;
-  background-image: linear-gradient(120deg, #2dad4e, #2dab9d);
+  background: rgba(255,255,255,0.25);
+  box-shadow: 0 0 27px rgba(255,255,255,0.4);
   color: #fff;
   text-shadow: 0 1px rgba(0, 0, 0, .15);
 }
