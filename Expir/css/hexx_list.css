@@ -1,4 +1,4 @@
-
+﻿
 .b-polygon {
     visibility: hidden;
     display: inline-block;
@@ -274,20 +274,27 @@ text-align:justify;
   margin-right: -1px;
 }
 
-.navquest a.hover span, .navquest a:hover span {
+.navquest a:hover span {
   background: rgba(255,255,255,0.25);
   box-shadow: 0 0 27px rgba(255,255,255,0.4);
   color: #fff;
   text-shadow: 0 1px rgba(0, 0, 0, .15);
 }
 
-.navquest a:hover span:before,.navquest a.hover span:before{
+.navquest a.hover span {
+  background: rgba(255,255,255,0.25);
+  box-shadow: 0 0 27px rgba(255,255,255,0.4);
+  color: #fff;
+  text-shadow: 0 1px rgba(0, 0, 0, .15);
+}
+
+.navquest a.hover span:before{
     border-color: rgba(255,255,255,0);
     border-top-color: #fff;
     border-width: 10px;
     margin-left: -10px;
-    content:"";
 }
+
 
 /*Åù¸ êóñü*/
 
