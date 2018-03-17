@@ -222,7 +222,8 @@ text-align:justify;
 }
 
 .navquest>div {
-  border-bottom: 2px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
   border-radius: 2px;
   display: inline-block;
   margin: 0 auto;
@@ -231,9 +232,9 @@ text-align:justify;
 
 .navquest a span {
   border-radius: 2px;
-  color: #ccc;
+  color: #fff;
   display: block;
-  font-family: roboto;
+  font-family: intro;
   font-size: 16px;
   height: 45px;
   line-height: 45px;
@@ -256,6 +257,7 @@ text-align:justify;
 }
 
 .navquest a {
+  background-image: linear-gradient(180deg,#2277b8,#7977ca);
   cursor: pointer;
   display: inline-block;
   margin-left: -5px;
@@ -278,11 +280,13 @@ text-align:justify;
   background: rgba(255,255,255,0.25);
   box-shadow: 0 0 27px rgba(255,255,255,0.4);
   color: #fff;
+  background-image: linear-gradient(-50deg,#e39024,#d62b5c);
   text-shadow: 0 1px rgba(0, 0, 0, .15);
 }
 
 .navquest a.hover span {
   background: rgba(255,255,255,0.25);
+  background-image: linear-gradient(-50deg,#e39024,#d62b5c);
   box-shadow: 0 0 27px rgba(255,255,255,0.4);
   color: #fff;
   text-shadow: 0 1px rgba(0, 0, 0, .15);
@@ -309,7 +313,7 @@ text-align:justify;
 }
 
 .pag2 a span {
-  padding: 0 16px;
+  padding: 0 10px;
 }
 
 .pag2 a:after {
