@@ -99,8 +99,8 @@
   width:70%;
   height :114px;
   margin:0;
-  padding-top:20px;
-  padding-left:25px;
+  padding-top:40px;
+  padding-left:55px;
   text-align:left;
 font-family:intro;
 font-size:14pt;
@@ -322,22 +322,19 @@ text-align:justify;
 }
 
 .hex_cost_box{
-  position:absolute;
-  width:120px;
-  height:35px;
-  background-color:rgba(153,51,51,0.70);
-  left:145px;
-  top:-120px;
-  z-index:2000;
-  box-shadow: 0 0 5px rgba(153,153,0,0.50);
-  border-radius:5px;
-  line-height:35px;
-  text-align:center;
-  color:#fff;
-  font-family:intro;
-  font-size:14pt;
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    background-color: rgba(153,51,51,0.80);
+    left: 186px;
+    top: -160px;
+    z-index: 2000;
+    box-shadow: 0 0 5px rgba(153,153,0,0.50);
+    border-radius: 5px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-family: intro;
+    font-size: 20pt;
 }
 
-100 листов синий 50 зеленый
-http://link.clashroyale.com/invite/clan/ru&tag=9JYLPYVL&token=4k8g4p9g&platform=android
-260/100=350/x
