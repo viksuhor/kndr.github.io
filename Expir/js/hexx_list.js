@@ -48,12 +48,12 @@ $main.empty();
 $QuestsWnds.empty();
 $main.append('<div class="'+CurrQuestLine+'"></div>');
 for (s_tmp = 0; s_tmp < CountQuest; s_tmp++) {
-if (((n_tmp%3)==0) && (CurrQuestLine=='odd-line-quest')&&(n_tmp>0)){
+if (((n_tmp%4)==0) && (CurrQuestLine=='odd-line-quest')&&(n_tmp>0)){
 CurrQuestLine='even-line-quest';
 $main.append('<div class="'+CurrQuestLine+'"></div>');
 n_tmp=0;
 }
-if (((n_tmp%2)==0) && (CurrQuestLine=='even-line-quest')&&(n_tmp>0)){
+if (((n_tmp%3)==0) && (CurrQuestLine=='even-line-quest')&&(n_tmp>0)){
 CurrQuestLine='odd-line-quest';
 $main.append('<div class="'+CurrQuestLine+'"></div>');
 n_tmp=0;
@@ -70,12 +70,12 @@ var n_tmp=0;
 $main.empty();
 $main.append('<div class="'+CurrQuestLine+'"></div>');
 for (s_tmp = 0; s_tmp < CountQuest; s_tmp++) {
-if (((n_tmp%3)==0) && (CurrQuestLine=='odd-line-quest')&&(n_tmp>0)){
+if (((n_tmp%4)==0) && (CurrQuestLine=='odd-line-quest')&&(n_tmp>0)){
 CurrQuestLine='even-line-quest';
 $main.append('<div class="'+CurrQuestLine+'"></div>');
 n_tmp=0;
 }
-if (((n_tmp%2)==0) && (CurrQuestLine=='even-line-quest')&&(n_tmp>0)){
+if (((n_tmp%3)==0) && (CurrQuestLine=='even-line-quest')&&(n_tmp>0)){
 CurrQuestLine='odd-line-quest';
 $main.append('<div class="'+CurrQuestLine+'"></div>');
 n_tmp=0;

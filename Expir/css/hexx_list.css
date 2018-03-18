@@ -34,31 +34,31 @@
             transform: rotate(-60deg);
     }
     .b-polygon-part_content {
-        width: 350px;
-        height: 400px;
+        width: 260px;
+        height: 300px;
         margin: -8px;
         }
     .b-polygon_hexagon .b-polygon-part_content {
-        width: 400px;
-        height: 350px;
+        width: 300px;
+        height: 260px;
         margin: 0 84px;
         }
 .b-polygon_hexagon2 {
     margin: -84px 0;
     }
     .b-polygon_hexagon2 .b-polygon-part_content {
-        width: 350px;
-        height: 400px;
+        width: 260px;
+        height: 300px;
         margin: 84px 0;
         z-index:1;
         }
     
     .even-line-quest{
-      padding-left:180px;
+      padding-left:136px;
 
     }
     .even-line-quest,.odd-line-quest{
-     margin-bottom:-88px;
+     margin-bottom:-65px;
     }
     .hexmain{
       margin-left:12px;
@@ -68,8 +68,8 @@
       position:absolute;
      display:block;
      left:0px;
-     height:400px;
-     width:350px;
+     height:300px;
+     width:260px;
      opacity:0;
      background:rgba(0, 0, 0, .7);
      transition: .3s ease-out;
@@ -341,4 +341,7 @@ text-align:justify;
     font-family: intro;
     font-size: 20pt;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of fd8cd1a... upd_hexxbox
