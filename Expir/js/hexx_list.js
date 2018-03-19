@@ -8,7 +8,6 @@ var currentQuest=0;
 var CountQuest = questlist.length;
 var s_tmp;
 var n_tmp=0;
-var idsend='#7da5ea1cfb75425ca2546abff0ce5f75';
 function setQuestWnd(e){
   
   $QuestsWnds.append('<div class="quest-wnd" style="background-image: url(\''+questlist[e].bgimg+'\');" id="quest_'+e+'"></div>');
