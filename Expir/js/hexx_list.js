@@ -54,45 +54,9 @@ setQuestBlock(s_tmp,CurrQuestLine);
 setQuestWnd(s_tmp);
   }
   
-function show_quest_type(type){
-var CurrQuestLine='odd-line-quest';
-var s_tmp;
-var n_tmp=0;
-$main.empty();
-$main.append('<div class="'+CurrQuestLine+'"></div>');
-for (s_tmp = 0; s_tmp < CountQuest; s_tmp++) {
-if (((n_tmp%4)==0) && (CurrQuestLine=='odd-line-quest')&&(n_tmp>0)){
-CurrQuestLine='even-line-quest';
-$main.append('<div class="'+CurrQuestLine+'"></div>');
-n_tmp=0;
-}
-if (((n_tmp%3)==0) && (CurrQuestLine=='even-line-quest')&&(n_tmp>0)){
-CurrQuestLine='odd-line-quest';
-$main.append('<div class="'+CurrQuestLine+'"></div>');
-n_tmp=0;
-}
-if(questlist[s_tmp].quest_type.indexOf(type)>-1){
-n_tmp+=1;
-setQuestBlock(s_tmp,CurrQuestLine);
-}
+
 }
 
 }
-$('.quest-btn-add').click(function() {    
-$('.fancybox-close-small').click();
-$(idsend).find('.btn-form-popover').click();
-});
-$('.quests_filtr a').on('click', function() {
-    var jParent = $('.quests_title');
-    var z = $(this);
-    var all = $('.quests_filtr a', jParent);
-    var all_box = $(".hexmain");
-    var c = all_box.filter("." + z.attr("data-class"));
-    if (!z.hasClass("hover")) {
-      all.removeClass("hover");
-      z.addClass("hover");
-      show_quest_type(z.attr("data-class"));
-    }
-  });
 
 });
