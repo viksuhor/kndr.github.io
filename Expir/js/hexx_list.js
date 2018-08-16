@@ -1,13 +1,5 @@
 //$(document).ready(function() {
-var $main= $('.mainhex-list');
-var $QuestsWnds=$('.Quest-desk');
-var $CurrQuest;
-var $CurrQuestWnd;
-var CurrQuestLine='odd-line-quest';
-var currentQuest=0;
-var CountQuest = questlist.length;
-var s_tmp;
-var n_tmp=0;
+
 function setQuestWnd(e){
   
   $QuestsWnds.append('<div class="quest-wnd" style="background-image: url(\''+questlist[e].bgimg+'\');" id="quest_'+e+'"></div>');
