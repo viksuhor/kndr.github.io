@@ -102,5 +102,5 @@ $('.quests_filtr a').on('click', function() {
       show_quest_type(z.attr("data-class"));
     }
   });
-  
+$('body').empty();  
 });
