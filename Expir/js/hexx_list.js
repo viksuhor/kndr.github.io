@@ -1,4 +1,4 @@
-$(document).ready(function() {
+//$(document).ready(function() {
 var $main= $('.mainhex-list');
 var $QuestsWnds=$('.Quest-desk');
 var $CurrQuest;
@@ -102,5 +102,5 @@ $('.quests_filtr a').on('click', function() {
       show_quest_type(z.attr("data-class"));
     }
   });
-$main.empty(); 
+
 });
